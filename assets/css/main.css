@@ -293,7 +293,7 @@ body {
 .about-subtitle {
   font-size: 1rem; /* düzeltildi (0.5rem hatalıydı) */
   color: var(--color-muted);
-  max-width: 1000px;
+  max-width: 1200px;
   margin-bottom: var(--space-4);
   white-space: pre-line;
   line-height: 1.8;
