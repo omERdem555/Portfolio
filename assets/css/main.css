@@ -178,8 +178,8 @@ body {
 }
 
 .logo {
-  font-weight: 700;
-  font-size: 1.1rem;
+  font-weight: 1000;
+  font-size: 1.5rem;
   text-decoration: none;
   color: var(--color-primary-dark);
 }
@@ -349,5 +349,11 @@ body {
   .hero h1 {
     font-size: 1.9rem;
   }
+  .logo {
+  font-weight: 800;
+  font-size: 0.9rem;
+  text-decoration: none;
+  color: var(--color-primary-dark);
+}
 
 }
