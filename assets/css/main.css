@@ -178,8 +178,8 @@ body {
 }
 
 .logo {
-  font-weight: 700;
-  font-size: 1.1rem;
+  font-weight: 1000;
+  font-size: 1.5rem;
   text-decoration: none;
   color: var(--color-primary-dark);
 }
@@ -293,7 +293,7 @@ body {
 .about-subtitle {
   font-size: 1rem; /* düzeltildi (0.5rem hatalıydı) */
   color: var(--color-muted);
-  max-width: 750px;
+  max-width: 1200px;
   margin-bottom: var(--space-4);
   white-space: pre-line;
   line-height: 1.8;
@@ -349,5 +349,61 @@ body {
   .hero h1 {
     font-size: 1.9rem;
   }
+  .logo {
+  font-weight: 800;
+  font-size: 0.9rem;
+  text-decoration: none;
+  color: var(--color-primary-dark);
+}
 
 }
+
+
+/* =========================
+   LIVE PROJECTS LIST
+========================= */
+
+.live-projects-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.live-project-item {
+  display: block;
+  margin-bottom: 12px;
+  font-size: 1.1rem;
+  text-decoration: none;
+  color: var(--color-primary-dark);
+  transition: opacity 0.2s ease;
+}
+
+
+.live-project-item:hover {
+  opacity: 0.7;
+}
+
+
+.live-project-item h3 {
+  font-size: 1.1rem;
+  margin-bottom: var(--space-1);
+}
+
+.live-project-item p {
+  font-size: 0.9rem;
+  color: var(--color-muted);
+}
+
+.project-link {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: var(--color-primary-dark);
+    transition: opacity 0.2s ease;
+}
+
+.project-link:hover {
+    opacity: 0.7;
+}
+
