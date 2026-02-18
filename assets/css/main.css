@@ -357,3 +357,53 @@ body {
 }
 
 }
+
+
+/* =========================
+   LIVE PROJECTS LIST
+========================= */
+
+.live-projects-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.live-project-item {
+  display: block;
+  margin-bottom: 12px;
+  font-size: 1.1rem;
+  text-decoration: none;
+  color: var(--color-primary-dark);
+  transition: opacity 0.2s ease;
+}
+
+
+.live-project-item:hover {
+  opacity: 0.7;
+}
+
+
+.live-project-item h3 {
+  font-size: 1.1rem;
+  margin-bottom: var(--space-1);
+}
+
+.live-project-item p {
+  font-size: 0.9rem;
+  color: var(--color-muted);
+}
+
+.project-link {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: var(--color-primary-dark);
+    transition: opacity 0.2s ease;
+}
+
+.project-link:hover {
+    opacity: 0.7;
+}
+
