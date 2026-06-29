@@ -55,7 +55,7 @@ body {
 [data-theme="dark"] {
   --color-bg: #111111;
   --color-surface: #1e1e1e;
-  --color-text: #303030;
+  --color-text: #b9b9b9;
   --color-muted: #aaaaaa;
 
   --color-primary: #303030;
