@@ -55,12 +55,13 @@ body {
 [data-theme="dark"] {
   --color-bg: #111111;
   --color-surface: #1e1e1e;
-  --color-text: #f5f5f5;
+  --color-text: #303030;
   --color-muted: #aaaaaa;
 
   --color-primary: #303030;
   --color-primary-dark: #404040;
   --color-primary-light: #a2a2a2;
+  --color-secondary-dark: #909090;
 }
 
 
@@ -256,7 +257,7 @@ body {
 
 .btn-primary {
   background: var(--color-primary);
-  color: white;
+  color: var(--color-secondary-dark);
   padding: 10px 20px;
   border-radius: 8px;
   text-decoration: none;
